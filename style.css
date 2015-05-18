@@ -1,3 +1,54 @@
+/* *, *:before, *:after {
+	box-sizing: border-box;
+}
+ */
+body {
+	display: block;
+  margin: 0 auto;
+}
+.header {
+	margin-bottom: 40px;
+}
+.header p {
+	font-size: 20px;
+}
+.player-box {
+	display: block;
+  margin: 0 auto;
+  background-color: #e5d8b3;
+  color: #77360a;
+  width: 300px;
+  height: 250px;
+  border: 5px solid black;
+  padding: 30px;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+	padding: 10px;
+	margin-bottom: 30px;
+}
+button {
+	border-radius: 5px;
+	padding: 3px 10px;
+	color: #77360a;
+	font-size: 14px;
+	background: #fff;
+
+}
 audio {
 	display: block;
+	margin-top: 30px;
 }
+p {
+	padding: 20px;
+	margin-bottom: 30px;
+	font-size: 16px;
+	width: 50%;
+	margin: 0 auto;
+	background: #e5d8b3;
+	color: #77360a;
+	height: 20px;
+	text-align: center;
+ }
